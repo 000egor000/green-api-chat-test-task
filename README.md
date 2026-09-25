@@ -2,6 +2,8 @@
 
 Тестовое задание «Фронтенд-разработчик React»: веб-интерфейс для отправки и получения текстовых сообщений в Telegram через [GREEN-API](https://green-api.com/telegram). Внешний вид повторяет [web.telegram.org](https://web.telegram.org/).
 
+**Демо:** https://000egor000.github.io/green-api-chat-test-task/ — войдите с `idInstance` и `apiTokenInstance` своего Telegram-инстанса GREEN-API (настройки инстанса описаны ниже).
+
 ## Запуск
 
 ```bash
