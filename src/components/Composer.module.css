@@ -1,0 +1,62 @@
+.composer {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 4px 16px 16px;
+}
+
+.inputWrap {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  padding: 0 16px;
+  border-radius: 18px;
+  border-bottom-right-radius: 4px;
+  background: var(--surface);
+  box-shadow: var(--shadow-bubble);
+}
+
+.input {
+  flex: 1;
+  max-height: 200px;
+  padding: 15px 0;
+  border: 0;
+  outline: none;
+  resize: none;
+  background: transparent;
+  line-height: 1.35;
+}
+
+.send {
+  flex-shrink: 0;
+  width: 54px;
+  height: 54px;
+  display: grid;
+  place-items: center;
+  border: 0;
+  border-radius: 50%;
+  background: var(--surface);
+  color: var(--accent);
+  box-shadow: var(--shadow-bubble);
+  transition:
+    background 0.15s,
+    color 0.15s;
+}
+
+.send:not(:disabled):hover {
+  background: var(--accent);
+  color: var(--text-on-accent);
+}
+
+.send:disabled {
+  color: var(--text-disabled);
+}
+
+@media (max-width: 720px) {
+  .composer {
+    padding: 4px 8px 8px;
+  }
+}

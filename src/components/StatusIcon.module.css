@@ -1,0 +1,15 @@
+.icon {
+  flex-shrink: 0;
+}
+
+.failed {
+  width: 14px;
+  height: 14px;
+  display: inline-grid;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--danger);
+  color: var(--text-on-accent);
+  font-size: 10px;
+  font-weight: 700;
+}

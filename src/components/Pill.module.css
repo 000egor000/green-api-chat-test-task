@@ -1,0 +1,8 @@
+.pill {
+  padding: 4px 12px;
+  border-radius: 14px;
+  background: var(--bg-pill);
+  color: var(--text-on-accent);
+  font-size: 14px;
+  text-align: center;
+}

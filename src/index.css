@@ -1,0 +1,62 @@
+:root {
+  --accent: #3390ec;
+  --accent-hover: #2a7fd6;
+  --surface: #ffffff;
+  --text: #000000;
+  --text-secondary: #707579;
+  --text-disabled: #aab2b8;
+  --text-on-accent: #ffffff;
+  --border: #dfe1e5;
+  --danger: #e53935;
+  --danger-bg: #fdecec;
+  --success: #4fae4e;
+  --chat-base: #c4d3a3;
+  --chat-wallpaper:
+    radial-gradient(circle at 10% 15%, #dbddbb 0%, transparent 45%),
+    radial-gradient(circle at 90% 25%, #6ba587 0%, transparent 50%),
+    radial-gradient(circle at 20% 85%, #88b884 0%, transparent 50%),
+    radial-gradient(circle at 85% 90%, #d5d88d 0%, transparent 50%), var(--chat-base);
+  --bg-hover: #f4f4f5;
+  --bg-active: var(--accent);
+  --bg-pill: rgba(0, 0, 0, 0.22);
+  --bubble-in: var(--surface);
+  --bubble-out: #eeffde;
+  --meta-out: var(--success);
+  --shadow-bubble: 0 1px 2px rgba(16, 35, 47, 0.15);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 15px;
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: var(--surface);
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}

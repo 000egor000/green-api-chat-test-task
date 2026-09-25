@@ -1,0 +1,80 @@
+.item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 10px;
+  border: 0;
+  border-radius: 12px;
+  background: transparent;
+  text-align: left;
+  transition: background 0.12s;
+}
+
+.item:hover {
+  background: var(--bg-hover);
+}
+
+.item.active {
+  background: var(--bg-active);
+  color: var(--text-on-accent);
+}
+
+.item.active .itemPreview,
+.item.active .itemTime {
+  color: var(--text-on-accent);
+}
+
+.item.active .badge {
+  background: var(--surface);
+  color: var(--accent);
+}
+
+.itemBody {
+  flex: 1;
+  min-width: 0;
+}
+
+.itemRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.itemRow + .itemRow {
+  margin-top: 3px;
+}
+
+.itemTitle,
+.itemPreview {
+  composes: ellipsis from '../styles/text.module.css';
+  flex: 1;
+  min-width: 0;
+}
+
+.itemTitle {
+  font-weight: 600;
+}
+
+.itemPreview {
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+.itemTime {
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.badge {
+  min-width: 20px;
+  height: 20px;
+  padding: 0 6px;
+  border-radius: 10px;
+  background: var(--success);
+  color: var(--text-on-accent);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+}
