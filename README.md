@@ -4,7 +4,19 @@
 
 **Демо:** https://000egor000.github.io/green-api-chat-test-task/ — войдите с `idInstance` и `apiTokenInstance` своего Telegram-инстанса GREEN-API (настройки инстанса описаны ниже).
 
-## Запуск
+## Скриншоты
+
+| Вход | Чат |
+| --- | --- |
+| ![Экран входа](docs/screenshots/login.png) | ![Переписка: статусы, ответ собеседника, новый контакт с непрочитанным](docs/screenshots/chat-desktop.png) |
+
+| Мобильная версия | Понятные ошибки |
+| --- | --- |
+| <img src="docs/screenshots/chat-mobile.png" alt="Мобильная версия" width="280"> | ![Номер без аккаунта Telegram](docs/screenshots/error.png) |
+
+Скриншоты сняты на сборке проекта, запросы к GREEN-API в них замоканы, как в e2e-тестах.
+
+## Локальный запуск
 
 ```bash
 npm install
