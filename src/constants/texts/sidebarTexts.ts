@@ -1,0 +1,15 @@
+export const SIDEBAR_TEXTS = {
+  title: 'Чаты',
+  instance: (idInstance: string) => `Инстанс ${idInstance}`,
+  offline: 'Нет соединения, переподключение…',
+  unauthorized: 'Доступ отклонён — выйдите и войдите заново',
+  webhookSet: 'Задан webhookUrl — очистите его в личном кабинете и войдите заново',
+  logout: 'Выйти',
+  phoneLabel: 'Номер телефона получателя',
+  phonePrefix: '+',
+  phonePlaceholder: '79991234567',
+  createChat: 'Новый чат',
+  creatingChat: '…',
+  createChatError: 'Не удалось создать чат',
+  empty: 'Чатов пока нет',
+};

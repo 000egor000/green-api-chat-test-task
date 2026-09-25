@@ -1,0 +1,17 @@
+export { AVATAR_GRADIENTS } from './avatarGradients';
+export { GREEN_API_DEFAULT_URL, INSTANCE_TYPE } from './greenApi';
+export { PHONE_DIGITS } from './phone';
+export { API_ERROR_TEXTS } from './texts/apiErrorTexts';
+export { APP_TEXTS } from './texts/appTexts';
+export { CHAT_LIST_ITEM_TEXTS } from './texts/chatListItemTexts';
+export { CHAT_TEXTS } from './texts/chatTexts';
+export { CHAT_VIEW_TEXTS } from './texts/chatViewTexts';
+export { COMPOSER_TEXTS } from './texts/composerTexts';
+export { DAY_TEXTS } from './texts/dayTexts';
+export { INSTANCE_STATE_TEXTS } from './texts/instanceStateTexts';
+export { LOGIN_TEXTS } from './texts/loginTexts';
+export { MESSAGE_STATUS_TEXTS } from './texts/messageStatusTexts';
+export { MESSENGER_TEXTS } from './texts/messengerTexts';
+export { SIDEBAR_TEXTS } from './texts/sidebarTexts';
+export { LOCALE } from './locale';
+export { ICON_PATHS } from './icons';
